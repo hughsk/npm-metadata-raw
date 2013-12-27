@@ -12,7 +12,7 @@
     "level-delete-range": "~0.1.0",
     "JSONStream": "~0.7.1",
     "through2": "~0.2.3",
-    "npm-stats": "~0.2.0"
+    "npm-stats": "~0.3.0"
   },
   "devDependencies": {},
   "scripts": {},
