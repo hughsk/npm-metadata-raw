@@ -99,25 +99,3 @@ function raw(db, completed) {
 
   return metadata
 }
-
-var db = raw(
-  require('level-sublevel')(
-    require('level')(
-      __dirname + '/.tmp'
-    )
-  )
-)
-
-db.get('browserify', function(err, meta) {
-  if (err) throw err
-  console.error(JSON.parse(meta))
-})
-
-// db.sync(function(err) {
-//   if (err) throw err
-//   console.error('done!!!')
-// }).on('data', function(data, name, date) {
-//   console.log(date, name)
-// }).on('found', function(name) {
-//   console.log(name)
-// })
