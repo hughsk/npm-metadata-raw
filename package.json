@@ -1,0 +1,40 @@
+{
+  "name": "npm-metadata-raw",
+  "description": "Retrieve the metadata for every package on NPM and store it in a level* database",
+  "version": "0.0.0",
+  "main": "index.js",
+  "browser": "index.js",
+  "dependencies": {
+    "map-async": "~0.1.1",
+    "monotonic-timestamp": "0.0.8",
+    "batch-stream": "0.0.1",
+    "stream-combiner": "0.0.2",
+    "level-delete-range": "~0.1.0",
+    "JSONStream": "~0.7.1",
+    "through2": "~0.2.3",
+    "npm-stats": "~0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/npm-metadata-raw"
+  },
+  "bugs": {
+    "url": "https://github.com/hughsk/npm-metadata-raw/issues"
+  },
+  "homepage": "https://github.com/hughsk/npm-metadata-raw",
+  "keywords": [
+    "npm",
+    "metadata",
+    "packages",
+    "storage",
+    "code",
+    "analytics",
+    "modules",
+    "tool",
+    "level"
+  ]
+}
