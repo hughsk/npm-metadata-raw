@@ -1,7 +1,7 @@
 {
   "name": "npm-metadata-raw",
   "description": "Retrieve the metadata for every package on NPM and store it in a level* database",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "browser": "index.js",
   "dependencies": {
